@@ -1,0 +1,36 @@
+NBA Dataset
+
+    - FGM x 
+    - FG% x
+    - 3PM x 
+    - FTM x
+    - FT% x
+    - OREB x 
+    - DREB x
+    - AST x
+    - STL x
+    - BLK x
+    - TOV x
+    - PF x
+    - TS% (true shooting pct) x (need to feature engineer this, formula is Points/ [2*(Field Goals Attempted+0.44*Free Throws Attempted)])
+    - eFG% (effective field goal pct) (feature engineer, ((FGM + (0.5 * 3PM)) / FGA))
+    - 3PAr (3pt attempt rate?) n
+    - FTR (ft attempt rate FTA/FGA)
+    - OREB% n
+    - DREB% n
+    - TRB% (total rebound pct) n
+    - AST% n 
+    - STL% n
+    - BLK% n
+    - TOV% n
+    - ORtg x (from previous) 
+    - DRtg x (from previous)
+    - Previous Season Winning Percentage
+
+SBRScrape Dataset
+    - Home and Away MLs
+        - how many sportsbooks?
+    - Winner 
+    - Loser 
+    - Winning difference
+    - Implied probability x
